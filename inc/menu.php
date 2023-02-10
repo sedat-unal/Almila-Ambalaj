@@ -62,7 +62,7 @@
                             <img src="../images/tr.webp" width="40px" style="border-radius: 50%;">
                         </li> -->
                         <li class="nav-item" onclick="window.location.href='./en'">
-                            <img src="../images/en.png" width="40px" style="border-radius: 50%;margin-left:20px;">
+                            <img src="images/en.png" width="40px" style="border-radius: 50%;margin-left:20px;">
                         </li>
                     </ul>
                     <!-- <input class="form-control mr-sm-1" type="search" placeholder="" name="Search" required="">

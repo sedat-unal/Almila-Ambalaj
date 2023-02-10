@@ -9,7 +9,7 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto";
     background: #fff;
 }
 
@@ -36,7 +36,7 @@ input[type="search"] {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto";
 }
 
 h1,
@@ -47,7 +47,7 @@ h5,
 h6 {
     margin: 0;
     font-weight: 300;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto";
 }
 
 p {
@@ -87,7 +87,7 @@ a.navbar-brand {
 
 .navbar-light .navbar-brand {
     color: #fff;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto";
 }
 
 .logo i {
@@ -105,7 +105,7 @@ li.nav-item {
     background: transparent;
     font-size: 1em;
     letter-spacing: 1px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto";
 }
 
 .navbar-light .navbar-nav .show>.nav-link,
@@ -273,7 +273,8 @@ input.form-control.mr-sm-2.ser-ch {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 48rem;
+    object-fit: cover;
 }
 
 
@@ -332,7 +333,7 @@ input.form-control.mr-sm-2.ser-ch {
 }
 
 .carousel-indicators {
-    bottom: 17%;
+    /* bottom: 17%; */
     left: 0%;
     cursor: pointer;
 }
@@ -358,7 +359,7 @@ input.form-control.mr-sm-2.ser-ch {
 }
 
 .carousel-indicators .active {
-    background: #fff;
+    background: #cf6b00;
 }
 
 

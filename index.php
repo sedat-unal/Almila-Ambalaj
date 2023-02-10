@@ -73,7 +73,7 @@
                 }
 
                 ?>
-
+                
             </div>
         </div>
         <!-- /.row -->
@@ -105,10 +105,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6" style="
-            background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.13)), url(images/ab1.jpg) no-repeat;
-            background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(images/ab1.jpg) no-repeat;
-            background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(images/ab1.jpg) no-repeat;
-            background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.18)), url(images/ab1.jpg) no-repeat;
+            background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.13)), url(images/index_picture1.jpg) no-repeat;
+            background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(images/index_picture1.jpg) no-repeat;
+            background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(images/index_picture1.jpg) no-repeat;
+            background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.18)), url(images/index_picture1.jpg) no-repeat;
             background-size: cover;
             min-height: 600;">
                 </div>
@@ -150,7 +150,7 @@
                         ?>
                     </div>
                     <div class="col-lg-4 grid_info_main mid" data-aos="flip-down">
-                        <img src="images/ab.jpg" class="img-fluid" alt=" ">
+                        <img src="images/neden-biz.png" class="img-fluid" alt=" ">
                     </div>
                     <div class="col-lg-4 grid_info_main" data-aos="flip-right">
                         <?php
@@ -259,12 +259,11 @@
                     ?>
                         <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                             <div class="section_1_gallery_grid">
-                                <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/<?= $row['img'] ?>">
+                                <a title="<?=$row['description']?>" href="images/<?= $row['img'] ?>">
                                     <div class="section_1_gallery_grid1">
                                         <img src="images/<?= $row['img'] ?>" alt="<?= $row['description'] ?>" class="img-fluid" />
                                         <div class="proj_gallery_grid1_pos">
                                             <h3><?= $row['title'] ?></h3>
-                                            <p><?= $row['content'] ?></p>
                                         </div>
                                     </div>
                                 </a>

@@ -81,6 +81,7 @@
                             $_SESSION['username'] = $fullFetch['username'];
                             $_SESSION['admin_email'] = $fullFetch['admin_email'];
                             $_SESSION['admin_role'] = $fullFetch['admin_role'] == 1 ? 'senior' : 'normal';
+                            $_SESSION['fullname'] = $fullFetch['fullname'];
                             // var_dump($_SESSION);
                             header("Refresh:2;url=index.php");
                         } catch (PDOException $e) {

@@ -16,6 +16,14 @@
                             </a>
                         </li>
                         <li>
+                            <a href="slider.php">
+                                <span class="nav-link-icon">
+                        <i data-feather="pie-chart"></i>
+                    </span>
+                                <span>Slider Ayarlar</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="chat.html">
                                 <span class="nav-link-icon">
                         <i data-feather="message-circle"></i>
